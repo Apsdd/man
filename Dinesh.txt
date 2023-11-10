@@ -1,0 +1,24 @@
+hii Dinesh kumar 
+how are you 
+=========================
+commands in jse
+=========>>>
+click()---> jse.executeScript("arguments[0].click();",click);
+----------
+senddata-------->>>jse.executeScript("arguments[0].value='dineshkumar';",data);
+---------
+highlight----->>jse.executeScript("arguments[0].style='border:5px solid green';",data);
+--------
+alert---->>>jse.executeScript("alert('hii bro');");
+-----
+gettitle------>>>jse.executeScript("return document.title").tostring();
+-------
+getSRC----->>jse.executeScript("return document.documentElement.innerText;").tostring();
+-------
+top to bottom------>jse.executeScript("window.scrollTo(0,document.body.scrollHeight);");
+---------
+bottom to top----->jse.executeScript("window.scrollTo(docuent.body.ScrollHeight,0);");
+--------
+expected scroll----->>jse.executeScript("window.scrollBy(0,1000);");
+---------
+refresh----->>>jse.executeScript("history.go(0);");
